@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--- Metadatos --->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Gabriel Puig">
+    <meta name="description" content="Portafolio de desarrollo web de Gabriel Puig">
+    <meta name="keywords" content="HTML, CSS, Javascript,Bootstrap, Node.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--------- Google Fonts -------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-----Bootstrap icons------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-----Favicon----->
+    <link rel="icon" type="image/svg-icon" href="48x48px#">
+    <title>Gabriel Puig | Portafolio web</title>
+</head>
+
+<body>
+    <!----- navigation bar ----->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <p class="logo">GCoder $~</p>
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about-me">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyects">Proyectos</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonios</a>-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!---Hero's Section --->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-mi-imagen" src="./assets/images/Gabriel Puig.jpeg" alt="Mi imagen.jpeg">
+            <h1>Hola, soy Gabriel Puig</h1>
+            <h2>Creo sitios web y aplicaciones para negocios.</h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-image img-fluid" src="./assets/images/notebook.jpeg" alt="mi notebook.jpeg">
+        </div>
+    </section>
+
+    <!----About me ---->
+    <section id="about-me" class="about-me dark-section">
+        <div class="personal-container-section">
+            <h2 class="title-section">Conoce a Gabriel Puig</h2>
+            <p class="text-section">Nací y me crié en la ciudad de La Plata, capital de la Provincia de Buenos Aires. Me
+                puedo definir como una persona persistente y comprometida. Amo aprender y dar lo mejor de mí mismo. Me
+                gusta trabajar en equipo y estoy dispuesto a seguir capacitándome día a día.</p>
+        </div>
+    </section>
+
+    <!-----Exprerience------->
+    <section class="experience light-section">
+        <div class="container text-center">
+            <div class="row">
+
+                <!--Web Development--->
+                <div class="column col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="title-experience">Desarrollo Web</p>
+                    <p>El desarrollo web es una de las herramientas más importantes a la hora de dar a conocer tu
+                        negocio. Contactate conmigo y realizaremos una web a medida de tus expectativas... o más!!!</p>
+                    <div class="badges-container">
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">JavaScript</span>
+                        <span class="badge text-bg-primary">Node.js</span>
+                    </div>
+                </div>
+
+                <!--  Web articles
+                <div class="column col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="title-experience">Artículos</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. nesciunt.</p>
+                    <div class="badges-container">
+                        <span class="badge text-bg-primary">Escribir</span>
+                        <span class="badge text-bg-primary">Editar</span>
+                        <span class="badge text-bg-primary">Corregir</span>
+                    </div>
+                </div>
+                --->
+
+                <!--Web studying--->
+                <div class="column col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="title-experience">Estudios</p>
+                    <p>Computación básica </p>
+                    <p>Programación básica</p>
+                    <p>Basic English Course for beginners</p>
+                    <p>Algoritmos y pensamiento lógico</p>
+                    <p>Introducción a la terminal y línea de comandos</p>
+                   <div class="badges-container">
+                        <span class="badge text-bg-primary">freeCodeCamp</span>
+                        <span class="badge text-bg-primary">Platzi</span>
+                        <span class="badge text-bg-primary">CoderHouse</span>
+                        <span class="badge text-bg-primary">php, mysql, python, linux</span>
+                    </div>
+                </div>
+
+                <!--Web studying--->
+                <div class="column col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="title-experience">Estudios</p>
+                    <p>Introducción a la web: Historia y funcionamiento de internet</p>
+                    <p>Curso de prework: Configuración de entorno de desarrollo en windows</p>
+                    <p>Curso de prework: Configuración de entorno de desarrollo en macos</p>
+                    <p>Curso de prework: Configuración de entorno de desarrollo en Linux</p>
+                    <p>PHP: Instalación, fundamentos y operadores</p>
+                    <p>PHP: Arreglos, funciones y estructuras de control</p>
+                    <p>Fundamentos de ingeniería de software</p>
+                    <div class="badges-container">
+                        <span class="badge text-bg-primary">freeCodeCamp</span>
+                        <span class="badge text-bg-primary">Platzi</span>
+                        <span class="badge text-bg-primary">CoderHouse</span>
+                        <span class="badge text-bg-primary">php, mysql, python, linux</span>
+                    </div>
+                </div>
+
+                <div class="column col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="title-experience">Estudios</p>
+                    <p>Curso de Frontend developer</p>
+                    <p>Frontend práctico</p>
+                    <p>Básico de JavaScript</p>
+                    <p>Curso práctico de JavaScript</p>
+                    <p>ECMASCRIP: Historia y versiones de JavaScript</p>
+                    <p>Curso básico de Node.js. Express</p>
+                    <p>Curso báscio de MySQL</p>
+                    <div class="badges-container">
+                        <span class="badge text-bg-primary">freeCodeCamp</span>
+                        <span class="badge text-bg-primary">Platzi</span>
+                        <span class="badge text-bg-primary">CoderHouse</span>
+                        <span class="badge text-bg-primary">php, mysql, python, linux</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact dark-section">
+        <div class="conatiner">
+            <div class="container text-center rectangle d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 title-section">Hablémos!!!</div>
+                    <div class="col-12 col-md-4 description">
+                        Iniciémos tu proyecto, programa o página web.
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto: gabrielfernando075puig@gmail.com">
+                            <button id="contact" class="button">
+                                Contacto
+                                <i class="bi bi-envelope-check-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------Proyectos------------>
+    <section class="proyects light-section d-flex flex-column">
+        <h2 class="title-section dark-text">Mis Proyectos</h2>
+        <h3 class="description-section">Algunos de mis proyectos</h3>
+        <!----Proyects gallery-->
+        <div class="container text-center proyects-container" id="proyects">
+            <div class="row">
+
+                <!---Proyect 1--->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyect">
+                        <img src="./assets/images/StockCtrlini.png" alt="proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 1</p>
+                            <div class="icons-container">
+                                <a href="https://github.com/GabrielPuig1975?tab=repositories" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!---Proyect 2--->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyect">
+                        <img src="./assets/images/Rosy.png" alt="proyecto 2">
+                        <div class="overlay">
+                            <p>Proyecto 2</p>
+                            <div class="icons-container">
+                                <a href="https://github.com/GabrielPuig1975?tab=repositories" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!---Proyect 3--->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyect">
+                        <img src="./assets/images/DoList.png" alt="proyecto 2">
+                        <div class="overlay">
+                            <p>Proyecto 3</p>
+                            <div class="icons-container">
+                                <a href="https://github.com/GabrielPuig1975?tab=repositories" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!---Proyect 4--->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyect">
+                        <img src="./assets/images/Ditribuidora.png" alt="proyecto 4">
+                        <div class="overlay">
+                            <p>Proyecto 4</p>
+                            <div class="icons-container">
+                                <!-- <a href="https://github.com/GabrielPuig1975?tab=repositories" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>-->
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <a href="https://github.com/GabrielPuig1975?tab=repositories" target="_blank" rel="noopener noreferrer">
+            <button class="btn btn-info">
+                Ver más proyectos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>
+    </section>
+
+    <!-------------Articles
+    <section class="articles justify-content-start">
+        <h2>Artículos</h2>
+        <div class="card">
+            <div class="card-header">
+                Más Recientes
+            </div>
+            <ul class="list-group list-group-flush">
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo
+                        nulla sit ad, ratione.</li>
+                </a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo
+                        nulla sit ad, ratione.</li>
+                </a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo
+                        nulla sit ad, ratione.</li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    -------Testimonials------------
+    <section class="testimonials light-section">
+    </section>
+    <section id="testimonials" class="testimonials dark-section">
+    </section>
+    ---->
+    <!---------Footer----------->
+    <footer class="dark-section d-flex flex-column align-items-center justify-content-center ">
+        <p class="logo">GCoder $~</p>
+        <p class="footer-text text-center">Aprendo y creo todos los días<br>Hagamos un proyecto juntos</p>
+        <div class="social-icons d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://github.com/GabrielPuig1975" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/gabriel-fernando-puig-70a33a20a" target="_blank"
+                rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://m.facebook.com/profile.php?eav=AfYfBzV1NraKcI8juaE1Ga8uIl1J_YI6_OJ4-z1fnwKsO2wE71TyRyacOh-91QM9yKs&paipv=0"
+                target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/gabriel_fernando_puig1975/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://twitter.com/GabrielPuig1975" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+            </a>
+
+        </div>
+    </footer>
+
+    <!---CopyRight-->
+    <div class="copy-right">Creado por Gabriel Puig (2022) &#169;</div>
+
+    <!--Bootstrap script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
